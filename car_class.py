@@ -19,7 +19,7 @@ class Car:
         car = 'Company: ' + str(self.company) + '\nModel: ' + str(self.model) + '\nYear: ' + str(self.year) + '\nPrice: $' + str(self.price) + '\nSale Status: ' + str(self.sale) + '\nColour: ' + str(self.colour) + '\nHorsepower: ' + str(self.horsepower) + '\nFuel Capacity: ' + str(self.fuel_capacity) + 'L\n' #printing everything
         return car
 
-c1 = Car('Ferrari', 'SF90 Stradale', 2019, 2000000, horsepower= 500, fuel_capacity = 60, doors = 2) #Ferrari status
+c1 = Car('Ferrari', 'SF90 Stradale', 2019, 2000000, horsepower= 450, fuel_capacity = 60, doors = 2) #Ferrari status
 c2 = Car('Lamborghini', 'Aventador S Auto AWD MY18', 2022, 999990, 'Red', 769, sale = False, doors = 2) #Lamborghini status
 c3 = Car('Ford', 'Mustang', 2025, 99500, 'yellow and black', doors = 2) #Ford Mustang Status
 
