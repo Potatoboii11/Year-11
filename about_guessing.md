@@ -15,3 +15,4 @@
 | ----------- | ----------- | ------|
 | max | integer | Stores maximum number for guessing range |
 | min | integer | Stores minimum range for guessing range |
+
